@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container img {
+            width: 200px;
+        }
+
+        .div-content {
+            border: 2px dashed rgba(48, 201, 10, 0.842);
+        }
+
+        @media screen and (max-width:567px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+
+
+
+            }
+
+            .container img {
+                border-radius: 10px;
+                width: 100%;
+
+            }
+
+            .div-content {
+                box-shadow: 10px 10px 40px blue;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media screen and (min-width:568px) and (max-width: 1000px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+               
+            }
+
+            .div-content img {
+                width: 300px;
+                display: flex;
+                margin: 0 auto;
+                padding-top: 10px;
+                border-radius: 10px;
+            }
+
+            .div-content {
+                text-align: justify;
+                padding: 10px;
+                border: none;
+                box-shadow: 10px 10px 40px grey;
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div-content">
+            <img src="image/istockphoto-1345642607-612x612.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, doloribus!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga tempora est dolorem earum soluta
+                optio ad officia quia, nesciunt sed ab maxime minus praesentium incidunt itaque dignissimos debitis
+                magni expedita quidem. Accusamus impedit, sed ex veritatis, necessitatibus quidem explicabo dolorum
+                repellat sint cum, beatae placeat voluptate. Distinctio, aperiam animi! afds</p>
+        </div>
+        <div class="div-content">
+            <img src="image/istockphoto-2109253220-612x612.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi soluta doloribus quia id nihil
+                laboriosam! Delectus excepturi iste fugiat facere distinctio, veritatis sapiente totam ducimus nobis
+                cumque? Nobis, consectetur ipsam molestiae rem placeat debitis officia sequi ullam, veniam tenetur amet
+                fugiat in animi labore eum autem perspiciatis eligendi minima dolorem.</p>
+        </div>
+        <div class="div-content">
+            <img src="image/istockphoto-472560436-1024x1024.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores accusantium necessitatibus velit
+                recusandae mollitia magni iure ut qui incidunt repudiandae sed optio, et facilis modi! Pariatur ullam
+                ducimus, minima perspiciatis maxime delectus ad eum non sequi assumenda asperiores vero dignissimos
+                harum similique officia aliquam nam hic temporibus labore. Nihil, nesciunt.</p>
+        </div>
+        <div class="div-content">
+            <img src="image/istockphoto-1345642607-612x612.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores accusantium necessitatibus velit
+                recusandae mollitia magni iure ut qui incidunt repudiandae sed optio, et facilis modi! Pariatur ullam
+                ducimus, minima perspiciatis maxime delectus ad eum non sequi assumenda asperiores vero dignissimos
+                harum similique officia aliquam nam hic temporibus labore. Nihil, nesciunt.</p>
+        </div>
+        <div class="div-content">
+            <img src="image/istockphoto-2109253220-612x612.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores accusantium necessitatibus velit
+                recusandae mollitia magni iure ut qui incidunt repudiandae sed optio, et facilis modi! Pariatur ullam
+                ducimus, minima perspiciatis maxime delectus ad eum non sequi assumenda asperiores vero dignissimos
+                harum similique officia aliquam nam hic temporibus labore. Nihil, nesciunt.</p>
+        </div>
+        <div class="div-content">
+            <img src="image/istockphoto-472560436-1024x1024.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores accusantium necessitatibus velit
+                recusandae mollitia magni iure ut qui incidunt repudiandae sed optio, et facilis modi! Pariatur ullam
+                ducimus, minima perspiciatis maxime delectus ad eum non sequi assumenda asperiores vero dignissimos
+                harum similique officia aliquam nam hic temporibus labore. Nihil, nesciunt.</p>
+        </div>
+    </div>
+</body>
+
+</html>
